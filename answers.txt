@@ -1,0 +1,8 @@
+1) Select * From students WHERE YEAR(date_of_birth) = 1990;
+2) Select * From courses WHERE cfu > 10;
+3) Select * From students WHERE TIMESTAMPDIFF(YEAR, date_of_birth, CURDATE()) > 30;
+4) Select * From courses WHERE period LIKE i semestre AND year = 1;
+5) Select * From exams WHERE date LIKE '2020-06-20' AND hour > '14:00:00';
+6) Select * From degrees WHERE level = 'magistrale';
+7) Select Count(*) as departments number From departments;
+8) Select Count(*) as teachers number From teachers WHERE phone IS NULL;
